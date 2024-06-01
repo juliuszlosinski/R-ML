@@ -1,4 +1,4 @@
-## Tology of the network:
+## Topology of the network:
 
 ![image](https://github.com/juliuszlosinski/R-ML/assets/72278818/bca42119-f996-4725-8907-d3f160c962ad)
 
