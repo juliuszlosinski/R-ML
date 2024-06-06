@@ -1,1 +1,1 @@
-!(Screenshot)["Salary(years) - Linear Regression.jpg"]
+<img src="Salary(years) - Linear Regression.jpg"/>
