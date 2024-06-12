@@ -28,6 +28,14 @@ y_predicted = predict(
 print("y predicted: ")
 print(y_predicted)
 
+y_predicted <- predict(
+  support_vector_for_regression_model,
+  data.frame(Level=6.7)
+)
+
+print("y_predicted: ")
+print(y_predicted)
+
 # 4. Visualizing support vector for regression results.
 ggplot()+geom_point(aes(x=dataset$Level, y=dataset$Salary), color="red")+
   geom_line(aes(x=dataset$Level, y=predict(support_vector_fo_regression_model, dataset)), color="blue")+
@@ -41,3 +49,4 @@ y_predicted = predict(
 )
 
 print(y_predicted)
+
